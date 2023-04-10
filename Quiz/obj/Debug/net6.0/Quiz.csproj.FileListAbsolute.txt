@@ -1,0 +1,15 @@
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\bin\Debug\net6.0\Quiz.exe
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\bin\Debug\net6.0\Quiz.deps.json
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\bin\Debug\net6.0\Quiz.runtimeconfig.json
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\bin\Debug\net6.0\Quiz.dll
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\bin\Debug\net6.0\Quiz.pdb
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.dll
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\refint\Quiz.dll
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.pdb
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\Quiz.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\CSharp Quiz\Quiz\obj\Debug\net6.0\ref\Quiz.dll
