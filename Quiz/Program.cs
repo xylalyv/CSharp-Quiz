@@ -19,10 +19,16 @@ new string[]{"Xemse hansi şairin eseridir?", "Nizami Gencevi", "Fuzuli", "Xursi
     {
         Random rand = new Random();
         int score = 0;
+        Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.WriteLine(@"
-            
+            /------\     |       |      -----        ------
+            |      |     |       |        |               /
+            |      |     |       |        |              /
+            \------/     |       |        |             /
+                \        |       |        |            /
+                 \       |-------|      -----        ------
         ");
-
+        Console.ResetColor();
         for (int i = 0; i < questions.Length; i++)
         {
             string correctAnswer = questions[i][4];
@@ -42,19 +48,22 @@ new string[]{"Xemse hansi şairin eseridir?", "Nizami Gencevi", "Fuzuli", "Xursi
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Duzdur!");
                     score += 10;
+                    Console.ResetColor();
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Sehvdir! Duzgun cavab: " + correctAnswer);
                     score -= 10;
+                   
                 }
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Yanlis simvol daxil etmisiniz! a, b ve ya c -den birini secin");
+                Console.WriteLine("Yanlis simvol daxil etmisiniz! a, b ve ya c -den birini secmeli idiniz");
                 score -= 10;
+               
             }
 
             if (i < questions.Length - 1)

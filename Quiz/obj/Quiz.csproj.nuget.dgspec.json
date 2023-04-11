@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\CSharp Quiz\\Quiz\\Quiz.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\C# Quiz\\Quiz\\Quiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\CSharp Quiz\\Quiz\\Quiz.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\C# Quiz\\Quiz\\Quiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\CSharp Quiz\\Quiz\\Quiz.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\C# Quiz\\Quiz\\Quiz.csproj",
         "projectName": "Quiz",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\CSharp Quiz\\Quiz\\Quiz.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\C# Quiz\\Quiz\\Quiz.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\CSharp Quiz\\Quiz\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\C# Quiz\\Quiz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
