@@ -3,19 +3,19 @@ class Program
 {
     
     static string[][] questions = new string[][] {
-new string[]{"Azerbaycanin paytaxti haradir?", "Baki", "Gence", "Naxcivan", "Baki" },
-new string[]{"Azerbaycanin en böyük şeheri hansidir?", "Gence", "Naxcivan", "Baki", "Baki" },
-new string[]{"Azerbaycanin pul vahidi nedir?", "Manat", "Dollar", "Avro", "Manat" },
-new string[]{"Azərbaycanin en yuksek dag zirvesi hansidir?", "Bazarduzu", "Sahdag", "Goyezen", "Bazarduzu"},
-new string[]{"Azerbaycanda esas din hansidir?", "İslam", "Xristianliq", "İudaizm", "İslam" },
-new string[]{"Azerbaycanin resmi dili nedir?", "Azerbaycan dili", "Rus dili", "İngilis dili", "Azerbaycan dili" },
-new string[]{"Azerbaycanin qedim od mebedi ne adlanir?", "Atesgah", "Heyder Eliyev Merkezi", "Alov Qulleleri", "Atesgah" },
-new string[]{"Azerbaycanin en boyuk golu hansidir?", "Goygol golu", "Sevan golu", "Van golu", "Goygol golu" },
-new string[]{"Abseron rayonunda yerlesen milli parkimizin adi nedir?", "Goygol Milli Parki", "Seki Milli Parki", "Abseron Milli Parki", "Abseron Milli Parki" },
-new string[]{"Xemse hansi şairin eseridir?", "Nizami Gencevi", "Fuzuli", "Xursidbanu Natevan", "Nizami Gencevi" }
+        new string[]{"Azerbaycanin paytaxti haradir?", "Baki", "Gence", "Naxcivan", "Baki" },
+        new string[]{"Azerbaycanin en böyük şeheri hansidir?", "Gence", "Naxcivan", "Baki", "Baki" },
+        new string[]{"Azerbaycanin pul vahidi nedir?", "Manat", "Dollar", "Avro", "Manat" },
+        new string[]{"Azərbaycanin en yuksek dag zirvesi hansidir?", "Bazarduzu", "Sahdag", "Goyezen", "Bazarduzu"},
+        new string[]{"Azerbaycanda esas din hansidir?", "İslam", "Xristianliq", "İudaizm", "İslam" },
+        new string[]{"Azerbaycanin resmi dili nedir?", "Azerbaycan dili", "Rus dili", "İngilis dili", "Azerbaycan dili" },
+        new string[]{"Azerbaycanin qedim od mebedi ne adlanir?", "Atesgah", "Heyder Eliyev Merkezi", "Alov Qulleleri", "Atesgah" },
+        new string[]{"Azerbaycanin en boyuk golu hansidir?", "Goygol golu", "Sevan golu", "Van golu", "Goygol golu" },
+        new string[]{"Abseron rayonunda yerlesen milli parkimizin adi nedir?", "Goygol Milli Parki", "Seki Milli Parki", "Abseron Milli Parki", "Abseron Milli Parki" },
+        new string[]{"Xemse hansi şairin eseridir?", "Nizami Gencevi", "Fuzuli", "Xursidbanu Natevan", "Nizami Gencevi" }
     };
 
-    static void Main(string[] args)
+    static void Main()
     {
         Random rand = new Random();
         int score = 0;
@@ -43,19 +43,17 @@ new string[]{"Xemse hansi şairin eseridir?", "Nizami Gencevi", "Fuzuli", "Xursi
             if (answer == "a" || answer == "b" || answer == "c")
             {
 
-                if ((answer.Equals("a") && correctAnswer.Equals(shuffledAnswers[0])) || (answer.Equals("b") && correctAnswer.Equals(shuffledAnswers[1])) || (answer.Equals("c") && correctAnswer.Equals(shuffledAnswers[2])))
+                if ((answer == "a" && correctAnswer == shuffledAnswers[0]) || (answer == "b" && correctAnswer == shuffledAnswers[1]) || (answer == "c" && correctAnswer == shuffledAnswers[2]))
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Duzdur!");
                     score += 10;
-                    Console.ResetColor();
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Sehvdir! Duzgun cavab: " + correctAnswer);
                     score -= 10;
-                   
                 }
             }
             else
